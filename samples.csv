@@ -1,0 +1,9 @@
+FCID,Lane,SampleID,SampleRef,Index,Description,Control,Recipe,Operator,SampleProject
+H934UADXX,2,1,A100Hw,TAAGGCGA-TAGATCGC,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,2,B100Hw,CGTACTAG-TAGATCGC,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,3,C100Hw,AGGCAGAA-TAGATCGC,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,4,D100Hw,TCCTGAGC-TAGATCGC,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,5,E100Hw,GGACTCCT-CTCTCTAT,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,6,0Hw,TAGGCATG-CTCTCTAT,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,7,50Hw,TAAGGCGA-CTCTCTAT,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
+H934UADXX,2,8,100Hw,CGTACTAG-CTCTCTAT,tube1,Y,NexteraXT,Sunita,HortaeaGenomes
