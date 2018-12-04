@@ -8,7 +8,8 @@ colnames(bedwindows) = c("Chr","Start","End","Depth","Group","Strain")
 #bedwindows = subset(bedwindows,bedwindows$Chr != "MT_CBS_6936") # drop MT for this
 
 bedwindows$CHR <- strtoi(sub("QWIS010+([0-9]+)\\.1","\\1",bedwindows$Chr,perl=TRUE))
-chrlist = 1:100
+chrlist = 1:327 # we probably want to truncate this - a bit too big or filter by length
+ # scaffold 1->327 are > 10kb
 d=bedwindows[bedwindows$CHR %in% chrlist, ]
 
 d <- d[order(d$CHR, d$Start), ]

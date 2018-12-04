@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-#SBATCH --nodes 1 --ntasks 8 --mem 24G --out logs/aln.%a.log --time 2:00:00 -p short
+#SBATCH --nodes 1 --ntasks 16 --mem 24G --out logs/aln.%a.log --time 2:00:00 -p short
 
 #This script takes a reference genome and a tab delimited sample list of: sample name\tsample_reads_1.fq\tsample_reads_2.fq.
 # For each line defined by the number in an array job, this script will align set of reads to a reference genome using bwa mem.
