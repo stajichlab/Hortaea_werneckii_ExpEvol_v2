@@ -57,7 +57,7 @@ do
 	if [ ! -f $VARIANTFOLDER/$SAMPLE.g.vcf ]; then
 		gatk --java-options -Xmx${MEM} HaplotypeCaller \
 		  -ERC GVCF \
-		  -ploidy 1 \
+		  -ploidy 2 \
 		  -I $IN -R $GENOMEIDX.fasta \
 		  -O $VARIANTFOLDER/$SAMPLE.g.vcf \
 		  --native-pair-hmm-threads $CPU
